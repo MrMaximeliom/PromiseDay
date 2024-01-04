@@ -69,7 +69,7 @@ const App = () => {
           />
         </audio>
 
-        <div>
+        <div className="calendar-container">
           <CalendarMonth sx={{ fontSize: 50 }} />
           <h2>العد التنازلي لليوم الموعود</h2>
           <p>العد التنازلي للزفاف الأسطوري للباشا محمد علي</p>
@@ -104,12 +104,12 @@ const App = () => {
           </section>
         </div>
       </section>
-      <div className="carousel-container">
+      {/* <div className="carousel-container">
         <ControlledCarousel />
         <Fab size="small" color="primary" aria-label="add" onClick={playAudio}>
           {isPlaying ? <PauseCircleFilledIcon /> : <PlayCircleIcon />}
         </Fab>
-      </div>
+      </div> */}
     </section>
   );
 };
