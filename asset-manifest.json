@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/PromiseDay/static/css/main.a504f107.css",
-    "main.js": "/PromiseDay/static/js/main.96c1355e.js",
+    "main.js": "/PromiseDay/static/js/main.8ff263dd.js",
     "static/js/787.655a5446.chunk.js": "/PromiseDay/static/js/787.655a5446.chunk.js",
     "static/media/wedding.jpg": "/PromiseDay/static/media/wedding.79f1d484f4cfc98228e2.jpg",
     "index.html": "/PromiseDay/index.html",
     "main.a504f107.css.map": "/PromiseDay/static/css/main.a504f107.css.map",
-    "main.96c1355e.js.map": "/PromiseDay/static/js/main.96c1355e.js.map",
+    "main.8ff263dd.js.map": "/PromiseDay/static/js/main.8ff263dd.js.map",
     "787.655a5446.chunk.js.map": "/PromiseDay/static/js/787.655a5446.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a504f107.css",
-    "static/js/main.96c1355e.js"
+    "static/js/main.8ff263dd.js"
   ]
 }
