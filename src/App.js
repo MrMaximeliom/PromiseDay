@@ -6,6 +6,7 @@ import Fab from "@mui/material/Fab";
 //import AddIcon from "@mui/icons-material/Add";
 import PauseCircleFilledIcon from "@mui/icons-material/PauseCircleFilled";
 import PlayCircleIcon from "@mui/icons-material/PlayCircle";
+import FavoriteIcon from "@mui/icons-material/Favorite";
 
 const App = () => {
   const [timerDays, setTimerDays] = useState("00");
@@ -62,17 +63,22 @@ const App = () => {
   return (
     <section className="timer-container">
       <section className="timer">
-        <audio id="audio" loop autoplay>
+        {/* <audio id="audio" loop autoPlay>
           <source
             src={process.env.PUBLIC_URL + "/music/maher.mp3"}
             type="audio/mpeg"
           />
-        </audio>
+        </audio> */}
 
         <div className="calendar-container">
           <CalendarMonth sx={{ fontSize: 50 }} />
           <h2>العد التنازلي لليوم الموعود</h2>
-          <p>العد التنازلي للزفاف الأسطوري للباشا محمد علي</p>
+          <p>
+            <FavoriteIcon /> العد التنازلي للزفاف الأسطوري للباشا محمد علي
+          </p>
+          <p>
+            <FavoriteIcon /> بارك الله لهما وبارك عليهما وجمع بينهما في خير
+          </p>
         </div>
         <div>
           <section>
